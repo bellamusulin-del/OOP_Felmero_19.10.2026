@@ -10,7 +10,7 @@ class TeleportalosUrZokni extends UrZokni {
     }
      @Override
     public String cimke() {
-        //4.saját speciális mezőjét is megjelenítse
+        //4.returns galaxy parameter also 
         return "Teleport zokni:" + azonosito + "tisztasagPont:" + tisztasagPont+ "Galaxis:" + galaxis;
     }
 }
