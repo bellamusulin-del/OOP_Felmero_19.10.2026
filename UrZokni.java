@@ -5,7 +5,7 @@ class UrZokni {
     private int tisztasagPont;
     
     public UrZokni(String azonosito, int tisztasagPont) {
-        this.azonosito = azonosito;  //1.minden objektum saját azonosítóját tárolja
+        this.azonosito = azonosito;  //1.Every object contains its own azonosito
         this.tisztasagPont = tisztasagPont;
     }
     public void mosas(int pluszPont) {
